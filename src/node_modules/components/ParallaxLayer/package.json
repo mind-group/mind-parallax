@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "ParallaxLayer",
+  "main": "./ParallaxLayer.js"
+}
