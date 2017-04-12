@@ -1,12 +1,13 @@
-import React, { Component } from 'react'
-
-import s                    from './App.css'
+import React                from 'react'
 
 import { Flex }             from 'mind-flex'
 
+
 import Parallax             from 'components/Parallax'
 
-class App extends Component {
+import s                    from './Example.css'
+
+class Example extends React.Component {
   render() {
     return (
       <div className={ s.root }>
@@ -38,4 +39,6 @@ class App extends Component {
   }
 }
 
-export default App
+import withStyles           from 'isomorphic-style-loader/lib/withStyles'
+
+export default withStyles(s)(Example)
